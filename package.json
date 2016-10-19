@@ -1,16 +1,16 @@
 {
-  "name": "bitcore-wallet-client",
-  "description": "Client for bitcore-wallet-service",
+  "name": "bitcore-wallet-client-dash",
+  "description": "Client for bitcore-wallet-service-dash",
   "author": "BitPay Inc",
   "version": "2.11.0",
   "license": "MIT",
   "keywords": [
-    "bitcoin",
+    "dash",
     "copay",
     "multisig",
     "wallet",
     "client",
-    "bitcore",
+    "bitcore-dash",
     "BWS",
     "BWC"
   ],
@@ -26,9 +26,9 @@
   "dependencies": {
     "async": "^0.9.0",
     "bip38": "^1.3.0",
-    "bitcore-lib": "^0.13.15",
-    "bitcore-mnemonic": "^1.1.1",
-    "bitcore-payment-protocol": "^1.1.0",
+    "bitcore-lib-dash": "^0.13.19",
+    "bitcore-mnemonic-dash": "^1.0.3",
+    "bitcore-payment-protocol-dash": "snogcel/bitcore-payment-protocol-dash",
     "browser-request": "^0.3.3",
     "json-stable-stringify": "^1.0.0",
     "lodash": "^3.3.1",
@@ -37,7 +37,7 @@
     "sjcl": "^1.0.2"
   },
   "devDependencies": {
-    "bitcore-wallet-service": "~1.9.0",
+    "bitcore-wallet-service-dash": "dashpay/bitcore-wallet-service-dash",
     "browserify": "^9.0.3",
     "chai": "^1.9.1",
     "coveralls": "^2.11.2",
